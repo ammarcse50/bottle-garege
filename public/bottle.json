@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Blue Glass Bottle",
+    "image": "https://via.placeholder.com/150/0000FF/FFFFFF?text=Blue+Bottle",
+    "price": 12.99
+  },
+  {
+    "id": 2,
+    "name": "Green Glass Bottle",
+    "image": "https://via.placeholder.com/150/008000/FFFFFF?text=Green+Bottle",
+    "price": 14.5
+  },
+  {
+    "id": 3,
+    "name": "Red Glass Bottle",
+    "image": "https://via.placeholder.com/150/FF0000/FFFFFF?text=Red+Bottle",
+    "price": 9.75
+  },
+  {
+    "id": 4,
+    "name": "Yellow Glass Bottle",
+    "image": "https://via.placeholder.com/150/FFFF00/000000?text=Yellow+Bottle",
+    "price": 17.25
+  },
+  {
+    "id": 5,
+    "name": "Purple Glass Bottle",
+    "image": "https://via.placeholder.com/150/800080/FFFFFF?text=Purple+Bottle",
+    "price": 10.99
+  },
+  {
+    "id": 6,
+    "name": "Orange Glass Bottle",
+    "image": "https://via.placeholder.com/150/FFA500/000000?text=Orange+Bottle",
+    "price": 13.75
+  },
+  {
+    "id": 7,
+    "name": "Pink Glass Bottle",
+    "image": "https://via.placeholder.com/150/FFC0CB/000000?text=Pink+Bottle",
+    "price": 11.25
+  },
+  {
+    "id": 8,
+    "name": "Black Glass Bottle",
+    "image": "https://via.placeholder.com/150/000000/FFFFFF?text=Black+Bottle",
+    "price": 15.99
+  },
+  {
+    "id": 9,
+    "name": "White Glass Bottle",
+    "image": "https://via.placeholder.com/150/FFFFFF/000000?text=White+Bottle",
+    "price": 19.5
+  },
+  {
+    "id": 10,
+    "name": "Teal Glass Bottle",
+    "image": "https://via.placeholder.com/150/008080/FFFFFF?text=Teal+Bottle",
+    "price": 16.0
+  }
+]
