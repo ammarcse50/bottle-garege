@@ -4,6 +4,8 @@ import Bottle from "../Bottle/Bottle";
 import "./Bottles.css";
 import { addToLS, getStoredCart } from "../Utilitties/localstorage";
 
+ import Cart from "../cart/Cart";
+
 const Bottles = () => {
   const [bottles, setBottles] = useState([]);
   const [cart, setCart] = useState([]);
@@ -49,7 +51,7 @@ const Bottles = () => {
     <div>
       <h2>Bottles Here: {bottles.length}</h2>
 
-      <h4>Cart: {cart.length}</h4>
+             <Cart cart={cart}></Cart>
       <div className="bottle-container">
         {bottles.map((bottle) => (
           <Bottle
@@ -62,5 +64,6 @@ const Bottles = () => {
     </div>
   );
 };
+
 
 export default Bottles;
