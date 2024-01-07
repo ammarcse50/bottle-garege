@@ -1,15 +1,15 @@
 import "./Bottle.css"
-const Bottle = ({ bottle }) => {
-  const { name, image, price } = bottle;
+const Bottle = ({ bottle,handleAddToCart }) => {
+  const { name, img, price } = bottle;
 
-  console.log(bottle);
 
   return (
     <div>
       <div className="bottle">
-        <img src={image} alt="" />
+        <img src={img} alt="" />
         <h2>Name:{name}</h2>
         <h2>price:{price}</h2>
+        <button onClick={()=>handleAddToCart(bottle)}>Purchase</button>
       </div>
     </div>
   );
