@@ -1,1 +1,7 @@
+.bottle-container{
+    border: goldenrod solid 2px;
+}
 
+.bottle-container img{
+    width: 40%;
+}
