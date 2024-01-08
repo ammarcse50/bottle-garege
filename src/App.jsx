@@ -1,5 +1,5 @@
 import "./App.css";
-import Bottles from "./components/Bottles/Bottles";
+import Bottles from "./componennts/Bottles/Bottles";
 
 function App() {
   return (
